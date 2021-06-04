@@ -142,3 +142,8 @@ ul {
   align-text: top;
 }
 .ul{display:inline-block;}
+
+img {
+  width: 1fr;
+height: 1fr;
+}
