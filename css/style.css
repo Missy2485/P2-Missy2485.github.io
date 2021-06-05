@@ -110,7 +110,7 @@ section#a {
   display:inline-block;
   padding: 8px;
   margin:10px;
-  width:250px;
+  width:234px;
    
 }
 #night {color:blue;}
@@ -158,8 +158,8 @@ ul {
 .ul{display:inline-block;}
 
 img {
-  width: 250px;
-height: 100px;
+  width: 234px;
+height: 120px;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 }
