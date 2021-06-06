@@ -100,9 +100,6 @@ section#a {
   grid-area:a;
   background-color: grey;
   border-radius: 10px;
-
-
-  
    }
 .hotelname {
   background-color: white;
@@ -122,11 +119,14 @@ height:20px;}
 section#b {
   background-color: #F8E71C;
   grid-area:b;
+  border-radius: 10px;
 }
 .hotelname2 {
   background-color: white;
   border-radius: 10px;
   display:block;
+  padding:8px;
+  margin:10px;
 }
 section#c {
   background-color: #F5A623;
@@ -157,11 +157,21 @@ ul {
 }
 .ul{display:inline-block;}
 
-img {
+#hotel1 {
   width: 234px;
 height: 120px;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 }
 
+#hotel2{
+  width:137px;
+  height:130px;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
 }
+
+#pop{color:red;
+border:solid;
+width:200px;
+display:inline-block;}
