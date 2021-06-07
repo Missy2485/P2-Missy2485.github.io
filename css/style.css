@@ -25,15 +25,16 @@ a:link {
   padding: 20px;
 }
 a:hover {
-  color: #0065fc;
+  color:orange;
   font-weight: bold;
 }
 a:visited {
-  color: black;
+  color: greenyellow;
+  text-decoration: overline;
 }
 a:active {
-  color: #deebff;
-  text-decoration: overline;
+  color:blue;
+  
 }
 
 .container {
@@ -46,12 +47,13 @@ a:active {
         "a a a b"
         "c c c c"
         "f f f f";
-       
-}
+       justify-content: space-between;
+     }
 .container2{display:inline-grid;
   grid-template: repeat(2,1fr) / repeat(3,1fr);
   border: solid;
   padding: 10px;
+  
 ;
 }
 
@@ -100,6 +102,9 @@ section#a {
   grid-area:a;
   background-color: grey;
   border-radius: 10px;
+  border:solid;
+  margin-right:30px;
+  padding-left: 20px;
    }
 .hotelname {
   background-color: white;
@@ -173,5 +178,5 @@ border-top-right-radius: 10px;
 
 #pop{color:red;
 border:solid;
-width:200px;
+width:150px;
 display:inline-block;}
