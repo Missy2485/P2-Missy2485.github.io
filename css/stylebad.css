@@ -36,28 +36,6 @@ a:active {
   color:blue;
   
 }
-.searchicon{display:inline-block;
-background-color: orange;
-color:green;
-}
-.container {
-    display: grid;
-  border:none;
-    grid-template: repeat(auto, 1fr) / repeat(4, 1fr);
-    grid-template-areas: 
-      "h h h h"
-        "a a b b"
-        "a a b b"
-        "c c c c"
-        "f f f f";
-       justify-content: space-between;
-     }
-.container2{display:inline-grid;
-  grid-template: repeat(2,1fr) / repeat(3,1fr);
-  border: solid;
-  padding: 10px;
-  
-}
 
 header {
   grid-area:h;
@@ -100,13 +78,14 @@ h3 {
   padding-right: 40px;
 }
 
-section#a {
+article {
   grid-area:a;
   background-color: grey;
   border-radius: 10px;
-  border:solid;
-  margin-right:30px;
-  padding-left: 20px;
+   display:inline-grid;
+  grid-template: repeat(2,1fr) / repeat(3,1fr);
+  border: dashed;
+  padding: 10px;
    }
 .hotelname {
   background-color: white;
@@ -123,10 +102,11 @@ width:20px;
 height:20px;}
 #rate {color:red;}
 
-section#b {
+aside {
   background-color: #F8E71C;
   grid-area:b;
   border-radius: 10px;
+  border:solid blue; 
 }
 .hotelname2 {
   background-color: white;
