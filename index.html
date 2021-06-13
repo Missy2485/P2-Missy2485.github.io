@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
-  images\hebergements\3_medium\fred-kleber-gTbaxaVLvsg-unsplash.jpg
+
 <head>
-  <!-- GENERAL INFO -->images\hebergements\3_medium\reisetopia-B8WIgxA_PFU-unsplash.jpg
+  <!-- GENERAL INFO -->
   <title>Accomodations in Marsielle</title>
   <meta charset="utf-8">
   <meta name="description" content="Find a place for your dream vacation! Accomodations and Activities in Marsielle.">
@@ -19,48 +19,54 @@
   <!-- icons -->
   <script src="https://kit.fontawesome.com/ff028ac823.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <nav class="nav">
-    <img src="images/logo/Reservia@3x.png" id="logo">
-    <a href="#accomodations">Accomodations</a>
-    <a href="#activities">Activities</a>
-    <a href="#">Sign Up</a>
-  </nav>
 
   <div class="container">
+    <nav class="nav">
+      <img src="images/logo/Reservia@3x.png" id="logo">
+      <a href="#accomodations">Accomodations</a>
+      <a href="#activities">Activities</a>
+      <a href="#">Sign Up</a>
+    </nav>
     <header>
       <h3>Find a place for your dream vacation.</h3>
       <p>Downtown or in nature.</p>
+     
       <form>
-            <div class="searchicon">
-            <i class="fas fa-map-marker-alt" id="i"></i>
-          </div>
-          <input type="text" placeholder="Mariselle, France"><text id="searchfield">Search</div>
-          </form>
+        <div class="searchicon">
+          <i class="fas fa-map-marker-alt" id="i">
+         <input type="text" placeholder="Mariselle, France" id="inputfield"></i></div>
+        <button id="searchfield" type="button">Search</button>
+      </form>
 
       <div class="Filters">
         <div id="filters"> Filters</div>
-        <div id="filters"> Low Cost</div>
-        <div id="filters">Family-Friendly</div>
-        <div id="filters"> Romantic</div>
-        <div id="filters"> Pets Allowed</div>
+        <button class="btn" id="money"><i class="fas fa-money-bill-wave" id="bill"></i>Low Cost</button>
+        <button class="btn" id="kid"><i class="fas fa-child" id="child"></i>Family-Friendly</button>
+        <button class="btn" id="heart"><i class="fas fa-heart" id="Romantic"></i>Romantic</button>
+        <button class="btn" id="dog"><i class="fas fa-dog" id="pet"></i>Pets Allowed</button>
       </div>
 
       <p id="info"> More than 500 accomodations available in this city.</p>
     </header>
-    <section id="a">
 
+
+    <section id="a">
       <p><a name="accomodations"></a>Accomodations in Marsielle</p>
       <div class="container2">
         <div class="hotelname">
           <img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" id="hotel1">
-          <p>Auberge La Cannebiere</p>
-          <p id="night">
-            Night starting at
-             <img src="#" id="price"></p>
-          <p id="rate"> Rating here </p>
+          Auberge La Canebière
+          <p>Night starting at <strong>25€</strong></p>
+          <div class="rate-container">
+              <i class="fas fa-star" id="hotel-acc-starblue"></i> 
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-stargrey"></i>
+            </div>
         </div>
-        
         <div class="hotelname">
           <img src="images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" id="hotel1"> Auberge La
           <p id="night">
@@ -78,7 +84,8 @@
           <p id="rate"> Rating here </p>
         </div>
         <div class="hotelname">
-          <img src="images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" id="hotel1"> Auberge La Cannebiere#4
+          <img src="images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" id="hotel1"> Auberge La
+          Cannebiere#4
           <p id="night">
             Night starting at</p>
           <p id="price">cost</p>
@@ -102,43 +109,46 @@
         </div>
       </div>
       <div id="seemore"> Show more</div>
-
     </section>
     <section id="b">
       <p>Most Popular</p>
       <div class="hotelname2">
         <img src="images\hebergements\3_medium\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" id="hotel2">
         <div id="pop">
-        <p>Auberge La Cannebiere</p>
-        <p id="night"></p>
+          <p>Auberge La Cannebiere</p>
+          <p id="night"></p>
           Night starting at
-        <p id="price">cost</p>
-        </p>
-        <p id="rate"> Rating here </p>
-      </div></div>
+          <p id="price">cost</p>
+          </p>
+          <p id="rate"> Rating here </p>
+        </div>
+      </div>
 
       <div class="hotelname2">
         <img src="images\hebergements\3_medium\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" id="hotel2">
         <div id="pop">
-        <p>Auberge La Cannebiere</p>
-        <p id="night"></p>
+          <p>Auberge La Cannebiere</p>
+          <p id="night"></p>
           Night starting at
-        <p id="price">cost</p>
-        </p>
-        <p id="rate"> Rating here </p>
-      </div></div>
+          <p id="price">cost</p>
+          </p>
+          <p id="rate"> Rating here </p>
+        </div>
+      </div>
 
       <div class="hotelname2">
         <img src="images\hebergements\3_medium\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" id="hotel2">
         <div id="pop">
-        <p>Auberge La Cannebiere</p>
-        <p id="night"></p>
+          <p>Auberge La Cannebiere</p>
+          <p id="night"></p>
           Night starting at
-        <p id="price">cost</p>
-        </p>
-        <p id="rate"> Rating here </p>
-      </div></div>
+          <p id="price">cost</p>
+          </p>
+          <p id="rate"> Rating here </p>
+        </div>
+      </div>
     </section>
+
     <section id="c">
       <p><a name="activities"></a>Activities</p>
       <div class="act">
@@ -156,33 +166,34 @@
         <p id="activity">
           Night starting at </p>
       </div>
-    
+
     </section>
-    <footer>
-      <div class="ul">
-        <ul id="About">
-          <p>About Us</p>
-          <li>Site Map</li>
-          <li>General Terms and Conditions</li>
-          <li>Data and Privacy</li>
-        </ul>
-      </div>
-      <div class="ul">
-        <ul id="OurAccomodations">
-          <p>Our Accomodations</p>
-          <li>Quality Assessment</li>
-          <li>You have a hotel?</li>
-        </ul>
-      </div>
-      <div class="ul">
-        <ul id="Assistance">
-          <p>Assistance</p>
-          <li>Help Desk</li>
-          <li>Contact Us</li>
-        </ul>
-      </div>
-    </footer>
+
   </div>
+  <footer id="footer">
+    <div class="ul">
+      <ul id="About">
+        <p>About Us</p>
+        <li>Site Map</li>
+        <li>General Terms and Conditions</li>
+        <li>Data and Privacy</li>
+      </ul>
+    </div>
+    <div class="ul">
+      <ul id="OurAccomodations">
+        <p>Our Accomodations</p>
+        <li>Quality Assessment</li>
+        <li>You have a hotel?</li>
+      </ul>
+    </div>
+    <div class="ul">
+      <ul id="Assistance">
+        <p>Assistance</p>
+        <li>Help Desk</li>
+        <li>Contact Us</li>
+      </ul>
+    </div>
+  </footer>
 </body>
 
 </html>
