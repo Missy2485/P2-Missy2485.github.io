@@ -157,7 +157,7 @@ section#c {
 }
 footer{grid-area: f;
     background-color:#f2f2f2;
- border:dashed;
+ border:none;
  padding: 23px;
  }
  ul { list-style:none;
