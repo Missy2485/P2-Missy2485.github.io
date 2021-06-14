@@ -24,22 +24,35 @@ a:link {
   color: black;
   text-decoration:none;
 }
-a:link, #nav-a-link {
-  color: black;
-  text-decoration:none;
- 
-}
-
 a:hover {
   color:#0065FC;
-  font-weight:bolder;
- }
+  }
 a:visited {
   color: #DEEBFF; }
 
 a:active {
   color:#0065FC;
   text-decoration: underline;  
+}
+
+.nav a{
+   padding:20px;
+}
+.nav a:hover {
+   font-weight:bolder;
+ }
+a:active {
+  color:#0065FC;
+   font-style: italic; 
+}
+
+.ul a:hover {
+  color:black;
+  font-style: italic;
+  }
+
+.ul a:active {
+   text-decoration: none;  
 }
 #i {
   background-color:#f2f2f2;
@@ -153,7 +166,7 @@ aside.b {
    }
    .pop-head{display:grid;
   grid-template-columns: 1fr 1fr;
-  margin-lefft:-40px;
+  margin-left:-40px;
 }
 .hotelname2 {
   background-color: white;
@@ -287,9 +300,4 @@ i {background-color: #DEEBFF;}
     #hotel-acc-stargrey{color:#f2f2f2;
     }
     .rate-container > i{background-color:transparent;}
-    
-    a:link, #footer-link {
-      color: black;
-      text-decoration:none;
-      }
-    .footer{display:inline-block;}
+       .footer{display:inline-block;}
