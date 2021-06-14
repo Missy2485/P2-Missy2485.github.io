@@ -274,10 +274,8 @@ i {background-color: #DEEBFF;}
      }
   
   /* Add a light grey background on mouse-over */
- .btn:hover{background-color: #ddd;}
-  .btn,#pet:hover {
-    background-color:#f2f2f2;
-  }
+ .btn:hover{background-color: white;}
+
     /* Add a dark background to the active button */
   .btn.active {
     background-color: #666;
