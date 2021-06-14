@@ -250,8 +250,9 @@ i {background-color: #DEEBFF;}
      }
   
   /* Add a light grey background on mouse-over */
-  .btn:hover {
-    background-color: #ddd;
+ .btn:hover{background-color: #ddd;}
+  .btn,#pet:hover {
+    background-color:#f2f2f2;
   }
   
   /* Add a dark background to the active button */
@@ -266,5 +267,8 @@ i {background-color: #DEEBFF;}
     }
     .rate-container > i{background-color:transparent;}
     
-    #footer-link {padding:0px;}
+    a:link, #footer-link {
+      color: black;
+      text-decoration:none;
+      }
     .footer{display:inline-block;}
