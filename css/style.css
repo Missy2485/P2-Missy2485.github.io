@@ -164,9 +164,10 @@ footer{grid-area: f;
 
 }
 .ul{display:inline-block;
-
+  vertical-align: top;
+  margin-left: -20px;
+  padding-right: 200px;
 }
-#footer-link-last{margin-bottom: 50px;}
 
 #hotel1 {
 width: 234px;
