@@ -25,9 +25,9 @@
   <div class="container">
     <nav class="nav">
       <img src="images/logo/Reservia@3x.png" id="logo">
-      <a href="#accomodations">Accomodations</a>
-      <a href="#activities">Activities</a>
-      <a href="#">Sign Up</a>
+      <a href="#accomodations" id="#nav-a-link">Accomodations</a>
+      <a href="#activities" id="#nav-a-link">Activities</a>
+      <a href="#" id="#nav-a-link">Sign Up</a>
     </nav>
     <header>
       <h3>Find a place for your dream vacation.</h3>
@@ -38,7 +38,7 @@
           <i class="fas fa-map-marker-alt" id="i">
             <input type="text" placeholder="Mariselle, France" id="inputfield"></i>
         </div>
-        <button id="searchfield" type="button">Search</button>
+        <button id="searchfield" type="submit">Search</button>
       </form>
 
       <div class="Filters">
@@ -53,10 +53,13 @@
     </header>
 
 
-    <section id="a">
-      <p><a name="accomodations"></a>Accomodations in Marsielle</p>
+    <article class="main-a">
+      
+        <main id="main-acc" role="main">
+        <a name="accomodations"></a>Accomodations in Marsielle
+      </main>
       <div class="container2">
-        <a href="#">
+        <a href="#" id="hotel-acc-link">
           <div class="hotelname">
             <img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" id="hotel1">
             Auberge La Canebière
@@ -70,87 +73,123 @@
             </div>
           </div>
         </a>
-        <div class="hotelname">
-          <img src="images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" id="hotel1"> Auberge La
-          <p id="night">
-            Night starting at
-          <p id="price">cost</p>
-          </p>
-          <p id="rate"> Rating here </p>
-        </div>
-        <div class="hotelname">
-          <img src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" id="hotel1"> La Cannebiere
-          <p id="night">
-            Night starting at
-          <p id="price">cost</p>
-          </p>
-          <p id="rate"> Rating here </p>
-        </div>
-        <div class="hotelname">
-          <img src="images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" id="hotel1"> Auberge La
-          Cannebiere#4
-          <p id="night">
-            Night starting at</p>
-          <p id="price">cost</p>
-          <p id="rate"> Rating here </p>
-        </div>
-        <div class="hotelname">
-          <img src="images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg" id="hotel1"> Auberge La #5
-          <p id="night">
-            Night starting at
-          <p id="price">cost</p>
-          </p>
-          <p id="rate"> Rating here </p>
-        </div>
-        <div class="hotelname">
-          <img src="images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" id="hotel1"> La #6
-          <p id="night">
-            Night starting at
-          <p id="price">cost</p>
-          </p>
-          <p id="rate"> Rating here </p>
-        </div>
+        <a href="#" id="hotel-acc-link">
+          <div class="hotelname">
+            <img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" id="hotel1">
+             La Canebière
+            <p>Night starting at <strong>25€</strong></p>
+            <div class="rate-container">
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-stargrey"></i>
+              <i class="fas fa-star" id="hotel-acc-stargrey"></i>
+            </div>
+          </div>
+        </a>
+        <a href="#" id="hotel-acc-link">
+          <div class="hotelname">
+            <img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" id="hotel1">
+            Auberge La Canebière
+            <p>Night starting at <strong>25€</strong></p>
+            <div class="rate-container">
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-stargrey"></i>
+            </div>
+          </div>
+        </a>
+        <a href="#" id="hotel-acc-link">
+          <div class="hotelname">
+            <img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" id="hotel1">
+            Auberge La Canebière
+            <p>Night starting at <strong>25€</strong></p>
+            <div class="rate-container">
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-stargrey"></i>
+            </div>
+          </div>
+        </a>
+        <a href="#" id="hotel-acc-link">
+          <div class="hotelname">
+            <img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" id="hotel1">
+             La Canebière
+            <p>Night starting at <strong>25€</strong></p>
+            <div class="rate-container">
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-stargrey"></i>
+              <i class="fas fa-star" id="hotel-acc-stargrey"></i>
+            </div>
+          </div>
+        </a>
+        <a href="#" id="hotel-acc-link">
+          <div class="hotelname">
+            <img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" id="hotel1">
+            Auberge La Canebière
+            <p>Night starting at <strong>25€</strong></p>
+            <div class="rate-container">
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-stargrey"></i>
+            </div>
+          </div>
+        </a>
       </div>
       <div id="seemore"> Show more</div>
-    </section>
-    <section id="b">
+    </article>
+    <aside id="b">
       <p>Most Popular</p>
       <div class="hotelname2">
         <img src="images\hebergements\3_medium\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" id="hotel2">
-        <div id="pop">
-          <p>Auberge La Cannebiere</p>
-          <p id="night"></p>
-          Night starting at
-          <p id="price">cost</p>
-          </p>
-          <p id="rate"> Rating here </p>
+        <div id="pop1"><p>Morning Star Hotel</p>
+           <p id="pop2">Night starting at <strong>25€</strong></p>
+            <div class="rate-container" id="pop3">
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-stargrey"></i>
+              <i class="fas fa-star" id="hotel-acc-stargrey"></i>
+            </div>
         </div>
       </div>
 
       <div class="hotelname2">
         <img src="images\hebergements\3_medium\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" id="hotel2">
-        <div id="pop">
-          <p>Auberge La Cannebiere</p>
-          <p id="night"></p>
-          Night starting at
-          <p id="price">cost</p>
-          </p>
-          <p id="rate"> Rating here </p>
+        <div id="pop1"><p>Morning Star Hotel</p>
+           <p id="pop2">Night starting at <strong>25€</strong></p>
+            <div class="rate-container" id="pop3">
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-stargrey"></i>
+              <i class="fas fa-star" id="hotel-acc-stargrey"></i>
+            </div>
         </div>
       </div>
 
       <div class="hotelname2">
         <img src="images\hebergements\3_medium\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" id="hotel2">
-        <div id="pop">
-          <p>Auberge La Cannebiere</p>
-          <p id="night"></p>
-          Night starting at
-          <p id="price">cost</p>
-          </p>
-          <p id="rate"> Rating here </p>
+        <div id="pop1"><p>Morning Star Hotel</p>
+           <p id="pop2">Night starting at <strong>25€</strong></p>
+            <div class="rate-container" id="pop3">
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-starblue"></i>
+              <i class="fas fa-star" id="hotel-acc-stargrey"></i>
+              <i class="fas fa-star" id="hotel-acc-stargrey"></i>
+            </div>
         </div>
       </div>
-    </section>
+    </aside>
 
     <section id="c">
       <p><a name="activities"></a>Activities</p>
