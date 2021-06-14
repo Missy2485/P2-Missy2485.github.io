@@ -158,15 +158,19 @@ section#c {
 footer{grid-area: f;
     background-color:#f2f2f2;
  border:dashed;
- padding: 23px;
+ 
  }
- ul { list-style:none;
+ li{ list-style:none;
 
 }
 .ul{display:inline-block;
+  vertical-align:top;
+  padding-right: 200px;
+  margin-left:-20px;
+
 
 }
-#footer-link-last{margin-bottom: 50px;}
+
 
 #hotel1 {
 width: 234px;
