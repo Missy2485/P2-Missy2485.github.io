@@ -169,6 +169,8 @@ aside.b {
      .pop-header{margin-top: 25px;
     margin-left: 20px;
   margin-bottom: -25px;}
+  .b div:nth-child(1) {
+    order:0;}
     .hotelname2 {
   background-color: white;
   border-radius: 10px;
