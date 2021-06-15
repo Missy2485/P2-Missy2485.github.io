@@ -170,7 +170,8 @@ aside.b {
     margin-left: 20px;
   margin-bottom: -25px;}
   .b div:nth-child(1) {
-    order:0;}
+    order:0;
+  align-self:flex-start;}
     .hotelname2 {
   background-color: white;
   border-radius: 10px;
