@@ -305,3 +305,11 @@ i {background-color: #DEEBFF;}
     }
     .rate-container > i{background-color:transparent;}
        .footer{display:inline-block;}
+
+.act-container{display:grid;
+grid-template-columns: repeat(4,1fr);
+grid-auto-rows: 100px 300px;
+gap: 10px;}
+.act{width:100%;
+height:100%;
+postion:relative;}
