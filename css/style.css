@@ -5,9 +5,10 @@
   color: white;
   text-align: center;
 }
+body{ font-family: "Raleway", sans-serif;
+}
 .nav {
-  font-family: "Raleway", sans-serif;
-  font-size: 15px;
+   font-size: 15px;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
@@ -193,8 +194,7 @@ section#c {
   border-radius: 10px;
   display: inline-block;
 }
-footer{grid-area: f;
-    background-color:#f2f2f2;
+footer{    background-color:#f2f2f2;
  border:none;
  padding: 23px;
  }
