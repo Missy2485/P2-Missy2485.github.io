@@ -79,7 +79,10 @@ header {
     "a a a b"
     "c c c c"
     "f f f f";
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
   justify-content: center;
 }
 
@@ -232,7 +235,7 @@ section#c {
   background-color: none;
   grid-area: c;
   margin-top: 20px;
-  margin-bottom: 20px;
+ 
 }
 .act-card {
   background-color:green;
