@@ -90,8 +90,9 @@ article {
   border-radius: 10px;
   border: solid;
   padding: 40px;
-  max-width: 880px;
-  margin-right: 50px;
+  padding-bottom: 0px;
+    max-width: 880px;
+  margin-right: 30px;
 }
 .container2 {
   border: dashed;
@@ -101,9 +102,12 @@ article {
   align-items: flex-start;
   flex-wrap: wrap;
   flex-direction: row;
+  row-gap: 20px;
+ 
 }
+#seemore {font-size: 14px;}
 #main-acc {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin-top: -18px;
   color: green;
 }
@@ -118,10 +122,11 @@ article {
   border-radius: 10px;
   display: inline-block;
   padding: 8px;
-  margin-bottom: 20px;
-  margin-left: 0px;
+  margin-bottom: 0px;
+   margin-left: 0px;
   max-width: 200px;
 }
+
 
 /* Hotel Card Tags & Rate container */
 #night {
@@ -151,12 +156,14 @@ aside.b {
   grid-area: b;
   border-radius: 10px;
   width: 360px;
-  display: flex;
+  display:flex;
+  border:dashed;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  height: fit-content;
+  padding-bottom: 21px;
 }
+
+
 #popimage {
   background-color: transparent;
   margin-left: 200px;
@@ -164,7 +171,8 @@ aside.b {
 .pop-header {
   margin-top: 25px;
   margin-left: 20px;
-  margin-bottom: -25px;
+  margin-bottom: 12px;
+
 }
 .b div:nth-child(1) {
   order: 0;
@@ -205,8 +213,10 @@ aside.b {
 /* Activities Grid Area C & Article */
 
 section#c {
-  background-color: #f5a623;
+  background-color: none;
   grid-area: c;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .act-card {
   background-color: green;
