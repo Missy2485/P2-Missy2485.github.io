@@ -135,7 +135,7 @@ article {
   color: blue;
 }
 #price {
-  color: green;
+  color: grey;
   width: 20px;
   height: 20px;
 }
@@ -262,7 +262,7 @@ section#c {
 overflow:hidden;
 height:100%;
 width:100%;
-background-color:blue;
+background-color:none;
 }
 .act-card .image img{
  
@@ -270,15 +270,14 @@ background-color:blue;
     height:100%;}
     
 .act-text {font-style: italic;
-
-margin-left:10px;
-padding:5px;
-border: blue solid;
-min-height: 40px;
+margin-left:20px;
+padding:0px;
+border:none;
+line-height: 40px;
 }
 
 
-  .text-container{border:dashed blue;
+  .text-container{border:none;
     height:30px;
   }
   
