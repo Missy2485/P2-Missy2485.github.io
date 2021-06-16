@@ -10,7 +10,7 @@ body {
 
 /* Header */
 header {
-  margin: 20px;
+  margin: 30px;
   color: black;
    text-decoration: none;
   text-align: left;
@@ -46,8 +46,8 @@ header {
   color: white;
   background-color: blue;
   border: none;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   padding: 4px;
   margin-left: -4px;
 }
@@ -79,9 +79,9 @@ header {
     "a a a b"
     "c c c c"
     "f f f f";
-  margin:20px;
-  row-gap: 20px;
-  column-gap:20px;
+  margin:30px;
+  row-gap: 30px;
+  column-gap:30px;
   justify-content: center;
 }
 
@@ -90,14 +90,14 @@ article {
   grid-area: a;
   background-color: #f2f2f2;
   border-radius: 10px;
-  border: solid;
+  border: none;
   padding: 40px;
   padding-bottom: 0px;
     max-width: 880px;
   
 }
 .container2 {
-  border: dashed;
+  border: none;
   max-width: 880px auto-fit;
   display: flex;
   justify-content: space-between;
@@ -107,7 +107,8 @@ article {
   row-gap: 20px;
  
 }
-#seemore {font-size: 14px;}
+#seemore {font-size: 16px;
+font-weight: bolder;}
 #main-acc {
   padding-bottom: 10px;
   margin-top: -18px;
@@ -116,12 +117,12 @@ article {
 #hotel1image {
   width: 200px;
   height: 120px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .accomodation-card {
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   display: inline-block;
   padding: 8px;
   margin-bottom: 0px;
@@ -159,7 +160,7 @@ aside.b {
   border-radius: 10px;
   width: 360px;
   display:flex;
-  border:dashed;
+  border:none;
   flex-direction: column;
   height: fit-content;
   padding-bottom: 21px;
@@ -182,7 +183,7 @@ aside.b {
 }
 .popular-card{
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   display: inline-block;
   padding: 5px;
   margin-right: 20px;
@@ -191,7 +192,8 @@ aside.b {
   margin-top: 0px;
   width: 300px;
   height: 100%;
-  border:solid red;
+  border: 0px solid;
+   box-shadow: 1px 1px #f2f2ffcc;
 }
 
 #pop-info {
@@ -205,15 +207,15 @@ aside.b {
 }
 #pop2 {
   padding-bottom: 20px;
-  border:dashed;
+  border:none;
   width:100%;
   font-size: 15px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 #popular-card-image{width:130px;
 height:136px;
 object-position: 50% 50%;
-border:solid red;
+border:none;
 display: inline-block;
 position: relative;}
 
@@ -222,8 +224,8 @@ position: relative;}
 #pop-image{
   width:100%;
   height:100%;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   object-position: 50% 50%;
   position: absolute;
 }
@@ -236,58 +238,64 @@ section#c {
  
 }
 .act-card {
-  background-color:green;
-  border-radius: 10px;
+  background-color:none;
+  border-radius: 20px;
   width:100%;
   height: 100%;
   position: relative;
    display:grid;
-  border:none;
+   border: 0px solid;
+   box-shadow: 1px 1px #f2f2f2;
  grid-template-rows:auto 40px;
 }
 
 .act-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-auto-rows:67px 67px 67px 67px 67px 67px;
-  gap: 20px;
+  grid-auto-rows:20px 20px 20px 20px 20px 20px 20px 20px;
+  gap: 30px;
   grid-auto-flow: dense;
   position: relative;
 
 }
 
 .act-card .image {
-  border-top-left-radius:10px;
-  border-top-right-radius:10px;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
 overflow:hidden;
 height:100%;
 width:100%;
 background-color:none;
+
 }
+ 
 .act-card .image img{
  object-fit: cover;
  object-position: center;
     width:100%;
     height:100%;}
     
-.act-text {font-style: italic;
+.act-text {font-style: none;
+  font-weight: bolder;
 margin-left:20px;
 padding:0px;
 border:none;
 line-height: 40px;
 }
 
-#act-img-top{object-position: top;}
+#act-img-port{object-position:40% 0%;}
+#act-img-top{object-position: 50% 35%;}
+#act-img-fort{object-position: 50% 35%;}
 #act-img-right{object-position:50% 0%;
   filter:brightness(125%);}
   .text-container{border:none;
     height:30px;
   }
   
-.h-2 {grid-row: span 6;}
-.h-75{grid-row:span 4 }
-.h-1{grid-row:span 2;}
-.h-180{grid-row: span 3;}
+.h-2 {grid-row: span 8;}
+.h-75{grid-row:span 5 }
+.h-1{grid-row:span 3;}
+.h-180{grid-row: span 4;}
 /* Footer */
 footer {
   background-color: #f2f2f2;
@@ -436,6 +444,9 @@ a:active {
   color: #0065fc;
   font-style: italic;
 }
+
+.act-card a:hover{color:black;}
+.act-card a:visited{color:black;}
 .ul a:hover {
   color: black;
   font-style: italic;
