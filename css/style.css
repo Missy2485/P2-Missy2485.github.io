@@ -277,7 +277,9 @@ border:none;
 line-height: 40px;
 }
 
-
+#act-img-top{object-position: top;}
+#act-img-right{object-position:50% 0%;
+  filter:brightness(125%);}
   .text-container{border:none;
     height:30px;
   }
