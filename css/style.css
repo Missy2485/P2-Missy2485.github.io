@@ -265,7 +265,8 @@ width:100%;
 background-color:none;
 }
 .act-card .image img{
- 
+ object-fit: cover;
+ object-position: center;
     width:100%;
     height:100%;}
     
