@@ -184,7 +184,7 @@ font-weight: bolder;}
 /* Most Popular Grid Area B */
 
 #popimage{background-color: transparent;
-  margin-left: 100px;}
+  margin-left: 195px;}
 aside.b {
   background-color: #f2f2f2;
   border-radius: 10px;
@@ -212,17 +212,20 @@ grid-template-columns: 130px 180px;
   grid-template-rows: 135px;
   column-gap:5px;
 }
-.popular-card{background-color: lemonchiffon;
+.popular-card{background-color: white;
+  border-radius: 20px;
 padding: 10px;}
 .popular-card-image {overflow:hidden;
-  background-color: lawngreen;
+  background-color: none;
 width:100%;
   height:100%;}
 .popular-card-image img{
   object-fit:cover;
 object-position:bottom;
 width:100%;
-  height:100%;}
+  height:100%;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;}
 
 /* Activities Grid Area C & Article */
 
