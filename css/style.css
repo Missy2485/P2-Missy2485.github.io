@@ -133,22 +133,29 @@ font-weight: bolder;}
   margin-top: -18px;
   color: none;
 }
-#hotel1image {
-  width: 200px;
-  height: 120px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
+
 .accomodation-card {
   background-color: white;
   border-radius: 20px;
-  display: inline-block;
   padding: 8px;
-  margin-bottom: 0px;
-   margin-left: 0px;
-  max-width: 200px;
 }
 
+.accomodation-card-not-flex{display:grid;
+  grid-template-columns: 200px;
+    grid-template-rows: 120px 100px;
+    row-gap:5px;
+  }
+
+  .acc-card-image {overflow:hidden;
+    background-color: lawngreen;
+  width:100%;
+    height:100%;}
+
+    .acc-card-image img{
+      object-fit:cover;
+    object-position:left;
+    width:100%;
+      height:100%;}
 
 /* Hotel Card Tags & Rate container */
 #night {
