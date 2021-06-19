@@ -202,8 +202,6 @@ aside.b {
 grid-template-columns: 130px 180px;
   grid-template-rows: 135px;
   column-gap:5px;
-
-  
 }
 .popular-card{background-color: lemonchiffon;
 padding: 10px;}
