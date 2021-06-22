@@ -171,10 +171,10 @@ font-weight: bolder;}
 #rate {
   color: red;
 }
-#hotel-acc-starblue {
+.fa-star {
   color: #0065fc;
 }
-#hotel-acc-stargrey {
+.stargrey {
   color: #f2f2f2;
 }
 .rate-container > i {
@@ -233,7 +233,7 @@ border-bottom-left-radius: 20px;}
 
 /* Activities Grid Area C & Article */
 
-section#c {
+article{
   background-color: none;
   grid-area: c;
  
@@ -304,6 +304,7 @@ footer {
   border: none;
   padding: 23px;
 }
+.footer-p{margin-left:40px;}
 .footer {
   display: inline-block;
 }
