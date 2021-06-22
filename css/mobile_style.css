@@ -85,41 +85,14 @@ text-align: center;}
 
 /* Container */
 .container {
-  display: grid;
-  border: none;
-  grid-template-columns: repeat(35% 35% 30%);
-  grid-template-areas:
-    "a a b"
-    "a a b"
-    "c c c"
-    "f f f";
-  margin:20px;
-  row-gap: 20px;
-  column-gap:30px;
+display:block;
+  margin:30px;
+  row-gap: 30px;
   justify-content: center;
 }
 
 /* Grid Area A */
-main {
-  grid-area: a;
-  background-color: #f2f2f2;
-  border-radius: 10px;
-  border: none;
-  padding: 30px;
-  padding-bottom: 0px;
-  
-  
-}
-.container2 {
-  border: none;
-   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  flex-direction: row;
-  row-gap: 20px;
- 
-}
+
 .seemore {font-size: 16px;
   font-weight: bolder;}
 .main-acc {
@@ -130,11 +103,10 @@ main {
   background-color: white;
   border-radius: 20px;
   padding: 8px;
-  width:30%;
 }
 
 .accomodation-card-not-flex{display:grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 200px;
     grid-template-rows: 120px 85px;
     row-gap:5px;
   }
@@ -168,7 +140,7 @@ main {
 /* Most Popular Grid Area B */
 
 #popimage{background-color: transparent;
-  margin-left: 20px;}
+  margin-left: 175px;}
 aside.b {
   background-color: #f2f2f2;
   border-radius: 10px;
@@ -183,7 +155,7 @@ aside.b {
   row-gap: 10px;
 }
 .pop-header {
-  margin-top: 5px;
+  margin-top: 15px;
   margin-left: 20px;
   margin-bottom: 0px;
 
@@ -221,6 +193,7 @@ border-bottom-left-radius: 20px;}
 article{
   background-color: transparent;
   grid-area: c;
+
  
 }
 .act-card {
@@ -237,9 +210,8 @@ article{
 
 .act-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(23%, 20%));
-  grid-auto-rows:20px 20px 20px 20px 20px 20px 20px 20px;
-  gap: 30px;
+  grid-template-columns: 1fr;
+   gap: 30px;
   grid-auto-flow: dense;
   position: relative;
 
@@ -291,16 +263,16 @@ footer {
 }
 .footer-p{margin-left:40px;}
 .footer {
-  display: inline-block;
+  display: block;
 }
 ul {
   list-style: none;
 }
 .ul {
-  display: inline-block;
+  display: block;
   vertical-align: top;
   margin-left: -20px;
-  padding-right: 15%;
+  padding-right: 200px;
 }
 
 /* Icons */
