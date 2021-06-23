@@ -87,7 +87,7 @@ text-align: center;}
 .container {
   display: grid;
   border: none;
-  grid-template-columns: 35% 35% 30%;
+  grid-template-columns: 30% 28% 42%;
   grid-template-areas:
     "a a b"
     "a a b"
@@ -129,12 +129,12 @@ main {
   background-color: white;
   border-radius: 20px;
   padding: 8px;
-  width:30%;
+  width:40%;
 }
 
 .accomodation-card-not-flex{display:grid;
   grid-template-columns: 100%;
-    grid-template-rows: 120px 85px;
+    grid-template-rows: 80px 85px;
     row-gap:5px;
   }
 
@@ -169,21 +169,20 @@ main {
 #popimage{background-color: transparent;
   margin-left: 20px;}
   aside.b{grid-area: b;
-    background-color: #f2f2f2;
-    border-radius: 10px;
-    margin-left: 20px;}
+  background-color: blue;
+align-content: center;}
 .container3 {
-  background-color: #f2f2f2;
+  background-color: green;
   border-radius: 10px;
   width: auto;
-  height:85%;
+  height:80%;
   display:flex;
   border:none;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content:space-between;
   align-items:center;
   padding:20px;
-  
+  margin-left: 0px;
 }
 .pop-header {
   margin-top: 30px;
