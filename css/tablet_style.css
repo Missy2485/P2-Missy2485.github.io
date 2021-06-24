@@ -89,8 +89,8 @@ text-align: center;}
   border: none;
   grid-template-columns: 35% 35% 30%;
   grid-template-areas:
-    "a a b"
-    "a a b"
+    "b b b"
+    "a a a"
     "c c c"
     "f f f";
   margin:20px;
@@ -171,7 +171,7 @@ main {
   aside.b{grid-area: b;
     background-color: #f2f2f2;
     border-radius: 10px;
-    margin-left: 20px;}
+    margin-left: 0px;}
 .container3 {
   background-color: #f2f2f2;
   border-radius: 10px;
