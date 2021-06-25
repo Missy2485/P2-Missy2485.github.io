@@ -33,9 +33,9 @@ header {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   padding-left: 8px;
-  padding-top: 1px;
-  padding-right: 1px;
-  padding-bottom: 1px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
 }
 .searchicon {
   display: inline-block;
@@ -48,7 +48,10 @@ header {
   border: none;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  padding: 8px;
+  padding-left: 5px;
+  padding-top: 6px;
+  padding-right: 5px;
+  padding-bottom: 6px;
   margin-left: -4px;
   font-size: 10px;
   }
@@ -69,7 +72,8 @@ padding:5px;
 appearance: normal;
   -webkit-appearance: none;
   outline: 0px dotted transparent;
-border:none;
+  border:solid 1px #f2f2f2;
+  margin-left:5px;
 }
 #filters {
   display: inline-block;
