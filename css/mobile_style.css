@@ -298,7 +298,7 @@ background-color: transparent;
  
 .act-card .image img{
  object-fit: cover;
- object-position: center;
+
     width:100%;
     height:100%;}
     
@@ -311,23 +311,56 @@ line-height: 15px;
 font-size:14px;
 }
 
-#act-img-port{object-position:40% 0%;}
-#act-img-top{object-position: 50% 35%;}
-#act-img-fort{object-position: 50% 35%;}
-#act-img-right{object-position:50% 0%;
-  filter:brightness(125%);}
   .text-container{border:none;
     height:30px;
   }
+
+ 
+  .act-container .act-card:nth-child(1) {
+    grid-row: span 4;
+    grid-column: span 5;
+   order:1;
+  }
+  .act-container .act-card:nth-child(2) {
+    grid-row: span 4;
+    grid-column: span 5;
+    order:2;
   
-.h-2 {grid-row: span 4;
-grid-column: span 5;}
-.h-75{grid-row:span 4;
-  grid-column: span 5;}
-.h-1{grid-row:span 4;
-  grid-column: span 5;}
-.h-180{grid-row: span 4;
-  grid-column: span 5;}
+  }
+
+  .act-container .act-card:nth-child(3) {
+    grid-row: span 4;
+    grid-column: span 5;
+    order:3;
+  
+  }
+  .act-container .act-card:nth-child(4) {
+    grid-row: span 4;
+    grid-column: span 5;
+    order:4;
+   object-position: 50% 30%;
+  }
+  .act-container .act-card:nth-child(5) {
+    grid-row: span 4;
+    grid-column: span 5;
+    order:6;
+  object-position: 50% 30%;
+  }
+  .act-container .act-card:nth-child(6) {
+    grid-row: span 4;
+    grid-column: span 5;
+    order:5;
+   
+  }
+  .h-75 .image img{object-position: center;}
+ 
+  .h-100 .image img{  object-position:50% 50%;
+    filter:brightness(125%);}
+  
+    .h-50 .image img {object-position: 50% 30%;}
+
+    .h-25 .image img {object-position: 50% 20%;}
+
 /* Footer */
 footer {
   background-color: #f2f2f2;
