@@ -19,7 +19,7 @@ header {
 }
 .nav img:nth-child(1) {
   padding: 10px;
-  padding-right: 30%;;
+  padding-right: 20%;;
   padding-left: 0px;
   margin-left: 0px;
     width: 90px;
@@ -69,6 +69,17 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.Filters div:nth-child(1) {/*see #filters*/
+  }
+  .Filters button:nth-child(2) {order:2;
+  }
+  .Filters button:nth-child(3) {order:4;
+  }
+  .Filters button:nth-child(4) {order:3;
+  }
+  .Filters button:nth-child(5) {order:5;
+  }
 input{font-size: 10px;
 color:#0065fc;
 padding:5px;}
@@ -76,19 +87,21 @@ padding:5px;}
   display: inline-block;
   margin-top: 8px;
   text-align: center;
-  padding-right: 40px;
+  padding-right: 100%;
   margin-bottom: 10px;
+  order:1;
+  
 }
 
-.fa-info {font-size: 15px;
+.fa-info {font-size: 8px;
 color:#0065fc;
 background-color: transparent;
 border-radius: 50%;
 border:#f2f2f2 solid 1px;
-padding:8px;
-width:15px;
-height:15px;
-line-height: 15px;
+padding:5px;
+width:8px;
+height:8px;
+line-height: 8px;
 text-align: center;}
 
 .info {font-size: 15px;}

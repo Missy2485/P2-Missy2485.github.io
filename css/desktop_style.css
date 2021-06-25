@@ -74,16 +74,16 @@ padding:5px;}
   margin-bottom: 10px;
 }
 
-.fa-info {font-size: 15px;
-color:#0065fc;
-background-color: transparent;
-border-radius: 50%;
-border:#f2f2f2 solid 1px;
-padding:8px;
-width:15px;
-height:15px;
-line-height: 15px;
-text-align: center;}
+.fa-info {font-size: 8px;
+  color:#0065fc;
+  background-color: transparent;
+  border-radius: 50%;
+  border:#f2f2f2 solid 1px;
+  padding:5px;
+  width:8px;
+  height:8px;
+  line-height: 8px;
+  text-align: center;}
 
 .info {font-size: 15px;}
 
@@ -187,6 +187,7 @@ main {
   justify-content: space-around;
   align-items:center;
   padding:20px;
+ 
   
 }
 .pop-header {

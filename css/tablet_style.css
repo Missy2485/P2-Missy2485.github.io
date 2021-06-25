@@ -66,20 +66,20 @@ padding:5px;}
   display: inline-block;
   margin-top: 8px;
   text-align: center;
-  padding-right: 40px;
+  padding-right: 100%;
   margin-bottom: 10px;
 }
 
-.fa-info {font-size: 15px;
-color:#0065fc;
-background-color: transparent;
-border-radius: 50%;
-border:#f2f2f2 solid 1px;
-padding:8px;
-width:15px;
-height:15px;
-line-height: 15px;
-text-align: center;}
+.fa-info {font-size: 8px;
+  color:#0065fc;
+  background-color: transparent;
+  border-radius: 50%;
+  border:#f2f2f2 solid 1px;
+  padding:5px;
+  width:8px;
+  height:8px;
+  line-height: 8px;
+  text-align: center;}
 
 .info {font-size: 15px;}
 
@@ -130,6 +130,8 @@ main {
   border-radius: 20px;
   padding: 8px;
   width:30%;
+  border: 0px solid;
+  box-shadow: 1px 1px #f2f2f2;
 }
 
 .accomodation-card-not-flex{display:grid;
@@ -183,6 +185,7 @@ main {
   justify-content: space-around;
   align-items:center;
   padding:20px;
+  gap:10px;
   
 }
 .pop-header {
