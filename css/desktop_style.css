@@ -10,6 +10,7 @@ header {
    text-decoration: none;
   text-align: left;
 }
+
 .nav {
   font-size: 15px;
   display: flex;
@@ -23,7 +24,10 @@ header {
   margin-right: auto;
   width: 90px;
   height: 50px;
+  
 }
+.nav a:nth-child(3) {
+  order:0;}
 .i1 {
   background-color: #f2f2f2;
   border-top-left-radius: 5px;

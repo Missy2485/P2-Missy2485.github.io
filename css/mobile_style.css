@@ -19,11 +19,21 @@ header {
 }
 .nav img:nth-child(1) {
   padding: 10px;
+  padding-right: 30%;;
   padding-left: 0px;
-  margin-right: auto;
-  width: 90px;
+  margin-left: 0px;
+    width: 90px;
   height: 50px;
+  order:-3;
+
 }
+.nav a:nth-child(3) {
+  order: 3;
+}
+  .nav a:nth-child(4) {
+    order: 1;}
+    .nav a:nth-child(2) {
+      order: 2;}
 .i1 {
   background-color: #f2f2f2;
   border-top-left-radius: 5px;
