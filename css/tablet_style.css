@@ -59,9 +59,16 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 input{font-size: 10px;
-color:#0065fc;
-padding:5px;}
+  color:#0065fc;
+  padding:5px;
+  appearance: normal;
+    -webkit-appearance: none;
+    outline: 0px dotted transparent;
+  border:none;
+  }
+  
 #filters {
   display: inline-block;
   margin-top: 8px;
@@ -169,7 +176,7 @@ main {
 /* Most Popular Grid Area B */
 
 #popimage{background-color: transparent;
-  margin-left: 20px;}
+  margin-left: 55%;}
   aside.b{grid-area: b;
     background-color: #f2f2f2;
     border-radius: 10px;
@@ -192,7 +199,6 @@ main {
   margin-top: 30px;
   margin-left: 20px;
   margin-bottom: 0px;
-
 }
 .b div:nth-child(1) {
   order: 0;

@@ -65,7 +65,12 @@ header {
 }
 input{font-size: 10px;
 color:#0065fc;
-padding:5px;}
+padding:5px;
+appearance: normal;
+  -webkit-appearance: none;
+  outline: 0px dotted transparent;
+border:none;
+}
 #filters {
   display: inline-block;
   margin-top: 8px;
