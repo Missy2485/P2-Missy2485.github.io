@@ -198,10 +198,15 @@ main {
   background-color: transparent;
 }
 
+.acc-card-info{overflow: hidden;}
+
 /* Most Popular Grid Area B */
 
 #popimage{background-color: transparent;
-  margin-left: 55%;}
+  margin-left: 0px;
+position:relative;
+margin-right:30px;
+float:right;}
   aside.b{grid-area: b;
     background-color: #f2f2f2;
     border-radius: 10px;
@@ -223,6 +228,8 @@ main {
   margin-top: 30px;
   margin-left: 20px;
   margin-bottom: 0px;
+  display: grid;
+  grid-template-columns: 50% 50%;
 
 }
 .b div:nth-child(1) {
@@ -309,6 +316,7 @@ padding:0px;
 border:none;
 line-height: 15px;
 font-size:14px;
+overflow:hidden;
 }
 
   .text-container{border:none;
