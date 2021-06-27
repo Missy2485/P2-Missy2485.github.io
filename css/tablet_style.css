@@ -164,6 +164,8 @@ main {
     border-top-left-radius:20px;
   border-top-right-radius: 20px;}
 
+  .acc-card-info{overflow: hidden;}
+
 /* Hotel Card Tags & Rate container */
 
 .fa-star {
@@ -297,6 +299,7 @@ font-size:14px;
 
   .text-container{border:none;
     height:30px;
+    overflow: hidden;
   }
   .h-75 .image img{object-position: center;}
  
