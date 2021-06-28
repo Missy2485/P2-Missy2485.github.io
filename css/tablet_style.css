@@ -38,7 +38,7 @@ header {
   border-color: #f2f2f2;
   font-size: 10px;
 }
-#searchfield {
+.searchfield {
   color: white;
   background-color: #0065fc;
   border: none;
@@ -73,7 +73,7 @@ input{font-size: 10px;
   margin-left:5px;
   }
 
-#filters {
+  .filters-title {
   display: inline-block;
   margin-top: 8px;
   text-align: center;
@@ -181,10 +181,12 @@ main {
 
 /* Most Popular Grid Area B */
 
-#popimage{background-color: transparent;
-  position:relative;
-  margin-right:30px;
-  float:right;}
+.pop-header .fa-chart-line{background-color: transparent;
+  margin-left: 0px;
+position:relative;
+margin-right:30px;
+float:right;}
+
   aside.b{grid-area: b;
     background-color: #f2f2f2;
     border-radius: 10px;
@@ -243,7 +245,7 @@ border-bottom-left-radius: 20px;}
   object-fit:scale-down;
   overflow-wrap: normal;
 }
-#opbr{object-position:right;}
+.opbr{object-position:right;}
 
 /* Activities Grid Area C & Article */
 
@@ -342,10 +344,8 @@ ul {
 }
 
 /* Icons */
-#money {
-  color: #0065fc;
-  border-color: #f2f2f2;
-  padding-left: 35px;
+.money {
+   padding-left: 35px;
 }
 .bill {
   padding-top: 9px;
@@ -357,10 +357,7 @@ ul {
   margin-top: -8px;
   position: absolute;
 }
-#kid {
-  color: #0065fc;
-  border-color: #f2f2f2;
-}
+
 .child {
   padding-top: 9px;
   padding-bottom: 9px;
@@ -371,10 +368,8 @@ ul {
   margin-top: -8px;
   position: absolute;
 }
-#heart {
-  color: #0065fc;
-  border-color: #f2f2f2;
-}
+
+
 .Romantic {
   padding-top: 9px;
   padding-bottom: 9px;
@@ -384,7 +379,7 @@ ul {
   margin-left: -35px;
   margin-top: -8px;
   position: absolute;
-}
+  }
 .pet {
   padding-top: 9px;
   padding-bottom: 9px;
@@ -395,10 +390,7 @@ ul {
   margin-top: -8px;
   position: absolute;
 }
-#dog {
-  color: #0065fc;
-  border-color: #f2f2f2;
-}
+
 i {
   background-color: #deebff;
 }
@@ -409,7 +401,7 @@ i {
 /* Buttons */
 
 .btn {
-  border: solid;
+  
   outline: none;
   padding: 6px 8px;
   background-color: #f1f1f1;
@@ -418,6 +410,8 @@ i {
   border-radius: 15px;
   padding-left: 30px;
   margin-bottom: 5px;
+  color: #0065fc;
+  border: #f2f2f2 solid;
 }
 
 /* Add a light grey background on mouse-over */
