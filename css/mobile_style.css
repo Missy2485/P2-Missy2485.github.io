@@ -1,5 +1,6 @@
 /* Header */
 
+
 .nav img:nth-child(1) {
    padding-right: 20%;
   margin-left: 0px;
@@ -13,9 +14,12 @@
     order: 1;}
     .nav a:nth-child(2) {
       order: 2;}
-.mobile-link{width:50%;
+    
+.mobile-link{width:49%;
+margin-right: 2px;
 padding:0px !important;
 text-align: center;
+
 border-bottom: 2px solid #f2f2f2;}
 
 .desktop-searchfield{display: none;}
