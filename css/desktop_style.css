@@ -28,6 +28,10 @@ header {
 }
 .nav a:nth-child(3) {
   order:0;}
+
+  
+ span{display:none;}
+  
 .i1 {
   background-color: #f2f2f2;
   border-top-left-radius: 5px;

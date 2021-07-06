@@ -15,7 +15,9 @@
       order: 2;}
 
 
-
+.search-text{display:none;}
+span {display:inline-block;}
+.fa-search{background-color: transparent;}
 
 .Filters div:nth-child(1) {/*see #filters*/
   }
