@@ -1,59 +1,16 @@
 
-/* Header */
-
-
-
-
-
-  .filters-title {
-   padding-right: 100%;
- }
-
-/* Container */
-.container {
-    grid-template-areas:
-    "b b b"
-    "a a a"
-    "c c c"
-    "f f f";
- }
 
 /* Grid Area A */
 
 .accomodation-card {
-  border: 0px solid;
-  box-shadow: 1px 1px #f2f2f2;
-  width:45%;
+   width:45%;
 }
 
 /* Most Popular Grid Area B */
 
-
-  aside.b{
-    margin-left: 0px;
-  margin-bottom: 20px;
-  overflow: hidden;
-border: none;}
 
 .container3 {
   flex-direction: column;
 }
 .popular-card-image img {
  object-position: center;}
-
-/* Activities Grid Area C & Article */
-
-.h-100 {grid-row: span 4;
-  grid-column: span 2;}
-.h-75{grid-row: span 4;
-  grid-column: span 2;}
-.h-25{grid-row: span 4;
-  grid-column: span 2;}
-.h-50{grid-row: span 4;
-  grid-column: span 2;}
-
-/* Icons */
-
-/* Buttons */
-
-/* Hyperlinks */
